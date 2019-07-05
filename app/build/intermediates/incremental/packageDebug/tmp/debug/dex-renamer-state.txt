@@ -1,0 +1,10 @@
+#Fri Jul 05 17:30:04 IST 2019
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=/Users/mac/Downloads/veki/veki/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+base.1=/Users/mac/Downloads/veki/veki/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+base.0=/Users/mac/Downloads/veki/veki/app/build/intermediates/dex/debug/mergeExtDexDebug/out

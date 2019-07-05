@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardElevation="10dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="60dp"
+                android:layout_height="96dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/user" />
+
+            <RelativeLayout
+                android:id="@+id/my_request_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/profile_image"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manish Sharma"
+                    android:textSize="@dimen/regular_text"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/acci_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name"
+                    android:text="Car Accident"
+                    android:textSize="@dimen/small_text" />
+
+                <TextView
+                    android:id="@+id/iv_dollar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/acci_type"
+                    android:layout_marginTop="8dp"
+                    android:src="@mipmap/ic_dollar"
+                    android:text="Price: "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/acci_type"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/iv_dollar"
+                    android:text="$340"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/small_text"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/phone"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/iv_dollar"
+                    android:layout_marginTop="8dp"
+                    android:src="@mipmap/ic_call" />
+
+
+                <TextView
+                    android:id="@+id/mobile_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_dollar"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/complete"
+                    android:layout_toRightOf="@+id/phone"
+                    android:singleLine="true"
+                    android:text="+91 87564 00032"
+                    android:textSize="@dimen/small_text" />
+
+                <TextView
+                    android:id="@+id/complete"
+                    android:layout_width="130dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/iv_dollar"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/circular_ends"
+                    android:backgroundTint="@color/navy_blue"
+                    android:gravity="center"
+                    android:text="Mark as Complete"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_text" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

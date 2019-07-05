@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "797154326046",
+    "firebase_url": "https://153813.firebaseio.com",
+    "project_id": "secure-153813",
+    "storage_bucket": "secure-153813.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797154326046:android:4eb3535c12408a57",
+        "android_client_info": {
+          "package_name": "com.onewayit.veki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797154326046-muf4e3fr202i8m2nhvsss21lji6cvdan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-LzEqvn8rLV1IZOQegR0kASyzN8oD3qY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797154326046-muf4e3fr202i8m2nhvsss21lji6cvdan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
